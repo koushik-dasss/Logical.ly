@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Puzzle Game</title>
+    <title>LogicXplosion</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,17 +16,19 @@
             margin: 0;
         }
         .container {
-            background-color: white;
+            background-color: #282828;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             text-align: center;
+            width: 300px;
         }
         h1 {
             margin-bottom: 20px;
+            font-size: 24px;
         }
         .puzzle {
-            font-size: 24px;
+            font-size: 18px;
             margin-bottom: 20px;
         }
         input[type="number"] {
@@ -33,17 +36,19 @@
             font-size: 16px;
             width: 100px;
             margin-bottom: 20px;
+            color: #282828;
         }
         .submit-btn {
             padding: 10px 20px;
             font-size: 16px;
-            background-color: #28a745;
+            background-color: #ff5733;
             color: white;
             border: none;
             cursor: pointer;
+            border-radius: 5px;
         }
         .submit-btn:hover {
-            background-color: #218838;
+            background-color: #c70039;
         }
         .result {
             margin-top: 20px;
@@ -53,7 +58,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Math Puzzle Game</h1>
+        <h1>LogicXplosion</h1>
         <div class="puzzle" id="puzzle"></div>
         <input type="number" id="answer" placeholder="Your answer">
         <button class="submit-btn" onclick="checkAnswer()">Submit</button>
