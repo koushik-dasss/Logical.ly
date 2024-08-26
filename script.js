@@ -14,7 +14,7 @@ function arithmeticProgression() {
     const sequence = [start, start + step, start + 2 * step, start + 3 * step];
     correctAnswer = start + 4 * step;
 
-    displayPuzzle(sequence, "Arithmetic Progression");
+    displayPuzzle(sequence);
 }
 
 function geometricProgression() {
@@ -23,7 +23,7 @@ function geometricProgression() {
     const sequence = [start, start * ratio, start * ratio * ratio, start * ratio * ratio * ratio];
     correctAnswer = start * Math.pow(ratio, 4);
 
-    displayPuzzle(sequence, "Geometric Progression");
+    displayPuzzle(sequence);
 }
 
 function squarePattern() {
@@ -31,7 +31,7 @@ function squarePattern() {
     const sequence = [start, start + 1, start + 2, start + 3].map(x => x * x);
     correctAnswer = (start + 4) * (start + 4);
 
-    displayPuzzle(sequence, "Square Pattern");
+    displayPuzzle(sequence);
 }
 
 function fibonacciSequence() {
@@ -45,7 +45,7 @@ function fibonacciSequence() {
     }
     correctAnswer = a + b;
 
-    displayPuzzle(sequence, "Fibonacci Sequence");
+    displayPuzzle(sequence);
 }
 
 function alternatingPattern() {
@@ -53,7 +53,7 @@ function alternatingPattern() {
     const sequence = [start, start + 2, start + 1, start + 3];
     correctAnswer = start + 2;
 
-    displayPuzzle(sequence, "Alternating Pattern");
+    displayPuzzle(sequence);
 }
 
 function displayPuzzle(sequence, type) {
