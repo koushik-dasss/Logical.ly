@@ -1,6 +1,8 @@
-/* General body styling */
 body {
-    background: linear-gradient(135deg, #4c6ef5, #6c5ce7, #ff6b81);
+    background-image: url('https://media.istockphoto.com/id/2159631236/photo/logic-vs-emotions-logical-choice-versus-emotional.jpg?s=1024x1024&w=is&k=20&c=okMxrYMM8yFyrbLiMuAzonCry6BfJy1ebyICeW-_zNk=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #f1f1f1;
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -11,11 +13,10 @@ body {
     height: 100vh;
     overflow: hidden;
 }
-
 /* Container to centralize content */
 .container {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -24,7 +25,7 @@ body {
 /* Heading style */
 h1 {
     font-size: 2.5em;
-    color: #e0f7fa;
+    color: #00cec9;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

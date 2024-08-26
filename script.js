@@ -77,5 +77,5 @@ function checkAnswer() {
     }
 
     
-    setTimeout(generatePuzzle, 3000);
+    setTimeout(generatePuzzle, 1000);
 }
