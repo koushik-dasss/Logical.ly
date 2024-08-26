@@ -76,5 +76,6 @@ function checkAnswer() {
         resultElement.style.color = "red";
     }
 
-    generatePuzzle();  // Immediately generate a new puzzle
+    
+    setTimeout(generatePuzzle, 3000);
 }
