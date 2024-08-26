@@ -56,9 +56,9 @@ function alternatingPattern() {
     displayPuzzle(sequence);
 }
 
-function displayPuzzle(sequence, type) {
+function displayPuzzle(sequence) {
     const puzzleElement = document.getElementById('puzzle');
-    puzzleElement.textContent = `${sequence.join(', ')}, ? (${type})`;
+    puzzleElement.textContent = `${sequence.join(', ')}, ?`;
 
     document.getElementById('answer').value = '';
     document.getElementById('result').textContent = '';
@@ -76,5 +76,5 @@ function checkAnswer() {
         resultElement.style.color = "red";
     }
 
-    setTimeout(generatePuzzle, 3000); // New puzzle every 3 seconds
+    generatePuzzle();  // Immediately generate a new puzzle
 }
