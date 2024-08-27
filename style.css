@@ -81,6 +81,22 @@ h1 {
     color: white;
 }
 
+/* Timer styling */
+#timer {
+    font-size: 1.3em;
+    color: #ff7675;
+    margin-top: 15px;
+}
+
+/* Score box styling */
+.score-box {
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 8px;
+    color: #dfe6e9;
+}
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
     .container {
