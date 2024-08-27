@@ -55,7 +55,7 @@ let score = 0;
 let currentQuestion = 0;
 let timerInterval;
 const totalQuestions = 10; 
-const timeLimit = 10; 
+const timeLimit = 30; 
 
 function resetTimer() {
     let timeLeft = timeLimit;
@@ -73,7 +73,7 @@ function resetTimer() {
 
 function getNextPattern() {
     if (usedPatterns.length === patterns.length) {
-        usedPatterns = []; // Reset if all patterns have been used
+        usedPatterns = []; 
     }
     
     let pattern;
